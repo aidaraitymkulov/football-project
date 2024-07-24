@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .logo-section {
+    width: 16.666%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Set your neutral color */
+  }
+  
+  .logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 2.5rem; 
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  @media (min-width: 768px) {
+    .logo-text {
+      display: block;
+    }
+  }
+  
+  .search-section {
+    width: 66.666%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .empty-section {
+    width: 16.666%;
+  }
+  
