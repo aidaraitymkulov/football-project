@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default async function SearchBar({
+export default function SearchBar({
     teamsData
 }: {teamsData: Team[];
 

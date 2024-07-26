@@ -3,15 +3,15 @@ import axios from "axios";
 import moment from "moment";
 import 'server-only';
 import { USE_SAMPLE } from "../sampleData/useSample";
-import getStandingsSample from "../sampleData/getStandingsSample";
+// import getStandingsSample from "../sampleData/getStandingsSample";
 
 
 
 export default async function getStandings(): Promise<Standing[]> {
 
-    if(USE_SAMPLE) {
-        return getStandingsSample()
-    }
+    // if(USE_SAMPLE) {
+    //     return getStandingsSample()
+    // }
 
     const currentTime = moment();
     const month = currentTime.month();
